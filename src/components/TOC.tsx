@@ -8,48 +8,48 @@ export default function TOC() {
         borderRadius: "8px",
         padding: "10px",
         display: "inline-block",
-        backgroundColor: "#f0f8ff", // 背景色（可选）
+        backgroundColor: "#f0f8ff",
       }}
     >
       <ul className="nav nav-pills">
         <li className="nav-item">
           <a
-            href="#/Components/mentalHealth"
+            href="#/Components/partOne"
             className={`nav-link ${
-              pathname.includes("mentalHealth") ? "active" : ""
+              pathname.includes("partOne") ? "active" : ""
             }`}
           >
-            🧠 Mental Health Crsis
+            📖 Part One
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="#/Components/Personality"
+            href="#/Components/partTwo"
             className={`nav-link ${
-              pathname.includes("Personality") ? "active" : ""
+              pathname.includes("partTwo") ? "active" : ""
             }`}
           >
-            🎥 Personality Trait & Movie-Watching Habits
+            🔍 Part Two
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="#/Components/IMDB1000GenreConnection"
+            href="#/Components/partThree"
             className={`nav-link ${
-              pathname.includes("IMDB1000GenreConnection") ? "active" : ""
+              pathname.includes("partThree") ? "active" : ""
             }`}
           >
-            🔗 GenreConnection
+            🎬 Part Three
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="#/Components/IMDB1000TopRating"
+            href="#/Components/partFour"
             className={`nav-link ${
-              pathname.includes("IMDB1000TopRating") ? "active" : ""
+              pathname.includes("partFour") ? "active" : ""
             }`}
           >
-            🏆 Top Rating Movies
+            🌐 Part Four
           </a>
         </li>
         <li className="nav-item">
@@ -59,17 +59,8 @@ export default function TOC() {
               pathname.includes("EndingContinuing") ? "active" : ""
             }`}
           >
-            📜 Conclusion
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#/Components/sourceCode"
-            className={`nav-link ${
-              pathname.includes("sourceCode") ? "active" : ""
-            }`}
-          >
-            💻 Source Code & Data
+            📜Conclusion & 🌟Acknowledgments & 🌊Development Process &
+            🔁Feedback Incorporation
           </a>
         </li>
       </ul>
